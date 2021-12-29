@@ -1,39 +1,33 @@
 {
-  "name": "nft-marketplace",
+  "name": "fibbo-nftmarketplace",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "14.x",
-    "npm": "6.x"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.3",
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
-    "@openzeppelin/contracts": "^4.2.0",
-    "@truffle/hdwallet-provider": "^1.4.3",
+    "@openzeppelin/contracts": "^4.1.0",
     "axios": "^0.21.1",
     "chai": "^4.3.4",
     "ethereum-waffle": "^3.4.0",
-    "ethers": "^5.4.1",
-    "hardhat": "^2.4.3",
+    "ethers": "^5.3.1",
+    "hardhat": "^2.4.0",
     "ipfs-http-client": "^50.1.2",
-    "next": "11.0.1",
+    "next": "11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "web3modal": "^1.9.3"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^11.0.1",
-    "autoprefixer": "^10.3.1",
-    "eslint": "7.30.0",
-    "eslint-config-next": "11.0.1",
+    "autoprefixer": "^10.2.6",
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.0",
     "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^2.2.2"
   }
 }
